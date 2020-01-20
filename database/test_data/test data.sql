@@ -91,7 +91,6 @@ INSERT INTO TUsers(cFirstName,cLastName,cAddress,cZipCode,cPhoneNumber,cEmail,cP
 INSERT INTO TUsers(cFirstName,cLastName,cAddress,cZipCode,cPhoneNumber,cEmail,cPassword,nTotalAmount,nCityID) VALUES ('Ole','Skam','Fuglevænget 7','4700','76564433','ole@skam.dk','pass',0.00, 9);
 
 -- Cards
--- Insert credit cards TODO: Add cardholder corresponding to user firstname and lastname
 
 INSERT INTO TCard(cCardHolder,cCardNumber,dExpireDate,cCCV,nTotalAmount,nUserID) VALUES ('Finn Olsen','1122334455667788','04-29-20','444',157.50,1);
 INSERT INTO TCard(cCardHolder,cCardNumber,dExpireDate,cCCV,nTotalAmount,nUserID) VALUES ('Lars Larsen','1133445566778899','04-29-20','555',0.00,1);
